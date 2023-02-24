@@ -11,6 +11,7 @@
 print("Hello Good morning")
 
 city = input("What is your city name ?  ")
+surname = input("What is your surname ? ")
 pet_name = input("What is your pet name ?  ")
 
-print("Your band name is " + city + " " + pet_name)
+print("Your band name is " + city + " " + pet_name + " " + surname)
