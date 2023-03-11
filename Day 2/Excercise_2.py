@@ -4,7 +4,4 @@ weight = float(input("What's your weight ? "))
 height = float(input("What's your height ? "))
 
 bmi = weight / height ** 2
-
 print(int(bmi))
-
-print(3 * ( 3 + 3 )  / 3 - 3)
