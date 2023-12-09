@@ -16,7 +16,4 @@ import random
 sides = random.randint(0,1)
 
 # Check sides for heads and tails
-if sides == 1:
-	print("Heads")
-else:
-	print("Tails")
+print("Head" if sides == 1 else "Tail")
